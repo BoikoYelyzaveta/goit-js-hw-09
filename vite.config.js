@@ -10,6 +10,7 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    base: '/goit-js-hw-09/', // ДОДАНО ПРАВИЛЬНИЙ ШЛЯХ ДЛЯ GITHUB PAGES
     build: {
       sourcemap: true,
       rollupOptions: {
